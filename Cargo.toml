@@ -11,7 +11,7 @@ futures-util = "0.3"
 serde_json = "1.0"
 serde = {version="^1.0",features=["derive"]}
 rand = "0.8.5"
-dekunobou = { path = "dekunobou/web/api/lib/dekunobou" }
+dekunobou = { git = "https://github.com/jj1guj/dekunobou-sys", branch = "main" }
 
 [build-dependencies]
 cmake = "0.1.51"
