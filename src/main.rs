@@ -6,7 +6,7 @@ use rand::SeedableRng;
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
 use tokio::sync::Mutex;
-mod dekunobou;
+use dekunobou;
 
 #[derive(Serialize,Deserialize,Debug)]
 struct WSResult{
